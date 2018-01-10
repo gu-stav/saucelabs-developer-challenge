@@ -1,4 +1,4 @@
-# saucelabs-developer-challenge
+# Saucelabs developer challenge
 
 ## Setup
 
@@ -7,11 +7,14 @@
 
 ## Development
 
-`npm run watch` will reload after your changes.
+`npm run watch` will run the application on http://localhost:3000/ and automatically reload after you made changes.
 
-`npm run lint` will lint your code. Prettier is already included, therefore running `npm run lint -- --fix` will fix all possible occurences.
+
+### Code standards
+
+`npm run lint` will lint the code. Prettier is already included, therefore running `npm run lint -- --fix` will fix all possible occurences, according to `.eslintrc`.
 
 
 ## Run
 
-`npm run serve`
+`npm run serve` will run the application on http://localhost:3000/.
