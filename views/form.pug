@@ -1,0 +1,14 @@
+extends index.pug
+
+block content
+  form(action="", method="post").form
+    label(for="url").visually-hidden
+      | URL
+    input(type="text",
+          name="url",
+          id="url",
+          placeholder="Paste a link to shorten it",
+          value="https://saucelabs.com/support#documentation").form__url
+
+    button(type="submit").form__submit
+      | Shorten URL

@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  font-family: Arial, 'sans-serif';
+  text-align: center;
+}
+
+/* General content styling */
+
+.content {
+  background-color: #e2231a;
+  color: white;
+  padding: 2rem;
+}
+
+.content__title {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+/* Form */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.form__url {
+  align-self: center;
+  border: 0;
+  display: block;
+  font-family: Arial, 'sans-serif';
+  font-size: 1.4rem;
+  padding: .4rem;
+  width: 40rem;
+}
+
+.form__submit {
+  align-self: center;
+  background-color: white;
+  border: 0;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  padding: .75rem 1.5rem;
+  text-transform: uppercase;
+  width: 14rem;
+}
+
+.form__submit:hover,
+.form__submit:focus {
+  background-color: #8d150f;
+  cursor: pointer;
+  color: white;
+}
+
+/* Success Link */
+
+.success {
+  border: 1px solid #8d150f;
+  color: currentColor;
+  display: inline-block;
+  margin-top: 2rem;
+  padding: .5rem 1rem;
+  text-decoration: none;
+}
+
+.success:hover,
+.success:focus {
+  background-color: white;
+  border-color: currentColor;
+  color: #e2231a;
+}
+
+/* Utilities */
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding:0 !important;
+  border:0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
